@@ -1,0 +1,146 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0;
+    border-top: none;
+}
+
+header {
+    background-color: red;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+h1 {
+    color: black;
+    font-size: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.navbuttons {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+button {
+    background-color: slategray;
+    font-weight: 600;
+    height: 50px;
+    width: 75px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+#uspaLogo {
+    margin-left: 20px;
+    height: 110px;
+    width: 110px;
+}
+
+#imagesection {
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=4e89389bed&attid=0.1&permmsgid=msg-a:r-8759249887232614342&th=188d6704563bbb72&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9tgfi7LNqVC6mJT6sZ3uv2zEQ1wUbSZ1mMi5_wxkLA3InKmDpoC6WGMyO0qDb2ie2cnKAoU7zOkyu6XheOxniXDiMXG45iTzz2J93r_PpU9uJrXbE6ohLZR54&disp=emb&realattid=188d6701863cc69a231");
+    height: 1950px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+h2 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: transparent;
+    text-shadow: white 20px;
+    font-weight: 800;
+    font-size: 42px;
+    margin-left: 150px;
+    
+}
+
+img {
+    height: 400px;
+    width: 100%;
+    align-content: stretch;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+*/
+
+p {
+    color: rgba(23, 0, 44, 0.993)
+}
+
+a {
+    margin-left: auto;
+    width: 33%;
+}
+
+
+div {
+    color: black;
+}
+
+footer {
+    text-align: center;
+
+}
+
+h3 {
+    color: white;
+}
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background-color: red;
+    }
+    button {
+        background-color: slategray;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: red;
+    }
+    button {
+    background-color: slategray;
+    
+    }
+    button:hover {
+        color: white;
+    }
+  }
+  
