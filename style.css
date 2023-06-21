@@ -43,8 +43,9 @@ button {
     border-radius: 30px;
     background-color: slategray;
     font-weight: 600;
+    font-size: large;
     height: 50px;
-    width: 75px;
+    width: 80px;
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 50px;
@@ -70,7 +71,7 @@ button {
 
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
     background-color: transparent;
     text-shadow: white 20px;
@@ -106,11 +107,11 @@ a:visited {
 }
 
 a:hover {
-    color: darkgray;
+    color: red;
 }
 
 a:active {
-    color: red;
+    color: black;
 }
 
 div {
