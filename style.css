@@ -33,7 +33,6 @@ h1 {
     align-items: center;
     justify-content: center;
 
-
 }
 
 button {
@@ -73,8 +72,15 @@ button {
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
+    text-shadow: -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white,
+    -2px 0 0 white,
+    2px 0 0 white,
+    0 -2px 0 white,
+    0 2px 0 white;
     background-color: transparent;
-    text-shadow: white 20px;
     font-weight: 800;
     font-size: 42px;
     margin-left: 150px;
@@ -103,8 +109,8 @@ a {
 }
 
 a:visited {
-    color: darkslategrey;
-    
+    color: black;
+    /* text-shadow: 2px 2px 2px 2px black; */
 }
 
 a:hover {
