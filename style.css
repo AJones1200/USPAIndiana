@@ -50,6 +50,22 @@ button {
     margin-bottom: 50px;
 }
 
+#contactButton {
+    color: black;
+}
+
+#contactButton:visited {
+    color: black;
+}
+
+#contactButton:hover {
+    color: red; 
+}
+
+#contactButton: :active {
+    color: :black;
+}
+
 #uspaLogo {
     margin-left: 20px;
     height: 110px;
@@ -147,6 +163,22 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     width: 200px;
+}
+
+#email {
+    color: black;
+}
+
+#email:visited {
+    color: black;
+}
+
+#email:hover {
+    color: red; 
+}
+
+#email:active {
+    color: black;
 }
 
 form {
