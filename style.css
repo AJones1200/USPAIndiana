@@ -68,7 +68,16 @@ button {
     /* justify-content: center; */
 }
 
+/* #leaguePic {
+    height: 15px;
+    width: auto;
 
+} */
+
+.bottomSect {
+    display: flex;
+    flex-direction: column;
+}
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: red;
@@ -127,6 +136,7 @@ div {
 
 footer {
     text-align: center;
+    height: 20px;
 }
 
 h3 {
