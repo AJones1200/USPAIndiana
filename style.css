@@ -58,8 +58,8 @@ button {
 }
 
 #imagesection {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=4e89389bed&attid=0.1&permmsgid=msg-a:r-8759249887232614342&th=188d6704563bbb72&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ9tgfi7LNqVC6mJT6sZ3uv2zEQ1wUbSZ1mMi5_wxkLA3InKmDpoC6WGMyO0qDb2ie2cnKAoU7zOkyu6XheOxniXDiMXG45iTzz2J93r_PpU9uJrXbE6ohLZR54&disp=emb&realattid=188d6701863cc69a231");
-    height: 1950px;
+    background-image: url("UspaIndiana\ Logo\ Black\ with\ Sponsors\ 2023.jpg");
+    height: 1000px;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,8 @@ a {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: darkslategrey;
+    
 }
 
 a:hover {
@@ -132,7 +133,9 @@ h3 {
     width: 200px;
 }
 
-
+form {
+    font-size: medium;
+}
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
@@ -160,3 +163,10 @@ h3 {
         color: white;
     }
 }
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: black;
+    }
+  }
