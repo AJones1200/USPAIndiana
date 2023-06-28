@@ -73,8 +73,8 @@ button {
 }
 
 #imagesection {
-    background-image: url("UspaIndiana\ Logo\ Black\ with\ Sponsors\ 2023.jpg");
-    height: 1000px;
+    background-image: url("backgroundBanner.jpg");
+    height: 1200px;
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
